@@ -1,2 +1,2 @@
 # is_leap_react
-Created with CodeSandbox
+A reactJS app to check whether user was born on leap year or not.
