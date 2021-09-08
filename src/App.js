@@ -20,7 +20,9 @@ export default function App() {
     var output = "";
     var YYYY = Number(userBirthDate[0]);
 
-    if (inputDate === "") {
+    if (userName === "" && inputData === "") {
+      output = "Please enter all the details.";
+    } else if (inputDate === "") {
       output = "Please enter your birthdate.";
     } else if (userName === "") {
       output = "Please enter your name.";
